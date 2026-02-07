@@ -78,31 +78,33 @@ A higher score indicates a better alternative.
 
 ## Project Structure
 
+```
 TOPSIS-Text-Generation/
 │
 ├── data/
-│ └── decision_matrix.csv
+│   └── decision_matrix.csv
 │
 ├── results/
-│ ├── normalized_matrix.csv
-│ ├── weighted_matrix.csv
-│ └── topsis_scores.csv
+│   ├── normalized_matrix.csv
+│   ├── weighted_matrix.csv
+│   └── topsis_scores.csv
 │
 ├── outputs/
-│ ├── ranking_plot.png
-│ ├── heatmap.png
-│ └── analysis.html
+│   ├── ranking_plot.png
+│   ├── heatmap.png
+│   └── analysis.html
 │
 ├── notebooks/
-│ └── analysis.ipynb
+│   └── analysis.ipynb
 │
 ├── src/
-│ ├── topsis.py
-│ └── utils.py
+│   ├── topsis.py
+│   └── utils.py
 │
 ├── main.py
-└── requirements.txt
-
+├── requirements.txt
+└── README.md
+```
 
 ---
 
